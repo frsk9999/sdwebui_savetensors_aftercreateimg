@@ -9,7 +9,7 @@ How to use
 5. generate an image (sampling steps is 1)
 6. create a file named stable-diffusion-webui\test_model.safetensors and put it under stable-diffusion-webui\models\checkpoints etc.
 7. replace the processing.py file with the one you backed up in step 1
-8. delete stable-diffusion-webui\modules\__pycache__\processing.cpython-310.pyc
+8. delete stable-diffusion-webui\modules\\_\_pycache\_\_\processing.cpython-310.pyc
 9. restart stable-diffusion-webui
 
 ----
@@ -34,7 +34,7 @@ sdwebuiでtxt2imgなどで画像を作成する際に、LoRA/Lycorisなどが適
 5. 画像を生成する(sampling stepsは1でOK)
 6. stable-diffusion-webui\test_model.safetensorsというファイルが出来上がるので、stable-diffusion-webui\models\checkpoints配下などに置く
 7. 1でバックアップを取っておいたprocessing.pyに置き換え直す
-8. stable-diffusion-webui\modules\__pycache__\processing.cpython-310.pycを削除する
+8. stable-diffusion-webui\modules\\_\_pycache\_\_\processing.cpython-310.pycを削除する
 9. stable-diffusion-webuiを再起動する
 
 

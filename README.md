@@ -16,7 +16,7 @@ How to use
 Reason for making this
 
 It's a pretty rough job, but when I adapted what was created as lycoris with decimal points as lora (I applied multiple times), I got something pretty good, so I tried using supermerger to fix it as checkpoint, but I couldn't reproduce it ...
-I tried to fix it as a checkpoint using supermerger, but I couldn't reproduce it... Then, I thought that if I save the tensor that was created when the image was created before and after the image was created, I could create the same checkpoint. I tried this and found a working file, so I published it.
+Then, I thought that if I save the tensor that was created when the image was created before and after the image was created, I could create the same checkpoint. I tried this and found a working file, so I published it.
 Well, I don't know if anyone will use it.
 
 The resulting file is a bit broken, but it will be okay if you merge it with other normal models...maybe.

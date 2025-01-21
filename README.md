@@ -15,7 +15,7 @@ How to use
 ----
 Reason for making this
 
-It's a pretty rough job, but when I adapted the lora to the lycoris, I got a pretty good result, so I tried to fix it as a checkpoint using supermerger, but I couldn't reproduce it...
+It's a pretty rough job, but when I adapted what was created as lycoris with decimal points as lora (I applied multiple times), I got something pretty good, so I tried using supermerger to fix it as checkpoint, but I couldn't reproduce it ...
 I tried to fix it as a checkpoint using supermerger, but I couldn't reproduce it... Then, I thought that if I save the tensor that was created when the image was created before and after the image was created, I could create the same checkpoint. I tried this and found a working file, so I published it.
 Well, I don't know if anyone will use it.
 
@@ -43,7 +43,7 @@ sdwebuiでtxt2imgなどで画像を作成する際に、LoRA/Lycorisなどが適
 ----
 作った理由
 
-かなりの荒業ですが、lycorisとして作られたものをloraとして小数点以下で適応させたときに結構よいものができていたのでcheckpointとして固定化させようとしてsupermerger使ってみたものの再現できず…
+かなりの荒業ですが、lycorisとして作られたものをloraとして小数点以下で適応させたときに(複数適用したところ)結構よいものができていたのでcheckpointとして固定化させようとしてsupermerger使ってみたものの再現できず…
 それなら画像を作るときに作り上げられたテンソルを画像生成前後で保存すればそのままのcheckpointができるんじゃないか？という仮定をして試してみたところ一応は動くファイルができたので公開してみました。
 まぁ使う人はいないかもだけど。
 

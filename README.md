@@ -12,6 +12,8 @@ How to use
 8. delete stable-diffusion-webui\modules\\_\_pycache\_\_\processing.cpython-310.pyc
 9. restart stable-diffusion-webui
 
+For the saving part, we referred to the supermerger code (savemodel part). 
+
 ----
 Reason for making this
 

@@ -13,6 +13,15 @@ How to use
 9. restart stable-diffusion-webui
 
 ----
+Reason for making this
+
+It's a pretty rough job, but when I adapted the lora to the lycoris, I got a pretty good result, so I tried to fix it as a checkpoint using supermerger, but I couldn't reproduce it...
+I tried to fix it as a checkpoint using supermerger, but I couldn't reproduce it... Then, I thought that if I save the tensor that was created when the image was created before and after the image was created, I could create the same checkpoint. I tried this and found a working file, so I published it.
+Well, I don't know if anyone will use it.
+
+The resulting file is a bit broken, but it will be okay if you merge it with other normal models...maybe.
+
+----
 日本語で
 sdwebuiでtxt2imgなどで画像を作成する際に、LoRA/Lycorisなどが適用されたテンソルをチェックポイントとして保存するための修正したスクリプト（一時的に置き換えるもの）。
 
@@ -36,3 +45,5 @@ sdwebuiでtxt2imgなどで画像を作成する際に、LoRA/Lycorisなどが適
 かなりの荒業ですが、lycorisとして作られたものをloraとして小数点以下で適応させたときに結構よいものができていたのでcheckpointとして固定化させようとしてsupermerger使ってみたものの再現できず…
 それなら画像を作るときに作り上げられたテンソルを画像生成前後で保存すればそのままのcheckpointができるんじゃないか？という仮定をして試してみたところ一応は動くファイルができたので公開してみました。
 まぁ使う人はいないかもだけど。
+
+出来上がったファイルは少し壊れているけど他の正常なモデルとマージすれば大丈夫だから…多分。

@@ -1,6 +1,8 @@
 # sdwebui_savetensors_aftercreateimg
 Modification script to save tensors with LoRA/Lycoris etc. applied as checkpoints when creating images with txt2img etc. in sdwebui (to temporarily replace them).
 
+target: a1111, version1.10.1
+
 How to use
 1. rename stable-diffusion-webui\modules\processing.py to processing.py.bk etc.
 2. put processing.py from this repository in stable-diffusion-webui\modules
@@ -27,6 +29,8 @@ The resulting file is a bit broken, but it will be okay if you merge it with oth
 日本語で
 
 sdwebuiでtxt2imgなどで画像を作成する際に、LoRA/Lycorisなどが適用されたテンソルをチェックポイントとして保存するために修正をしたスクリプト（一時的に置き換えるもの）。
+
+a1111, version1.10.1がターゲットです
 
 使い方
 1. stable-diffusion-webui\modules\processing.pyをprocessing.py.bkなどに名称を変更する

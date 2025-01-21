@@ -6,7 +6,7 @@ How to use
 2. put processing.py from this repository in stable-diffusion-webui\modules
 3. Run stable-diffusion-webui
 4. write a prompt using lora/lycoris etc. in txt2img (or paste a nice prompt you made beforehand)
-5. generate an image (sampling steps is 1)
+5. generate an image (you can change sampling steps to 1)
 6. create a file named stable-diffusion-webui\test_model.safetensors and put it under stable-diffusion-webui\models\checkpoints etc.
 7. replace the processing.py file with the one you backed up in step 1
 8. delete stable-diffusion-webui\modules\\_\_pycache\_\_\processing.cpython-310.pyc

@@ -23,6 +23,7 @@ The resulting file is a bit broken, but it will be okay if you merge it with oth
 
 ----
 日本語で
+
 sdwebuiでtxt2imgなどで画像を作成する際に、LoRA/Lycorisなどが適用されたテンソルをチェックポイントとして保存するための修正したスクリプト（一時的に置き換えるもの）。
 
 使い方

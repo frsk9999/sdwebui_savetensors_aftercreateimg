@@ -9,7 +9,7 @@ How to use
 3. Run stable-diffusion-webui
 4. write a prompt using lora/lycoris etc. in txt2img (or paste a nice prompt you made beforehand)
 5. generate an image (you can change sampling steps to 1)
-6. create a file named stable-diffusion-webui\test_model.safetensors and put it under stable-diffusion-webui\models\checkpoints etc.
+6. create a file named stable-diffusion-webui\test_model.safetensors and put it under stable-diffusion-webui\models\Stable-diffusion etc.
 7. replace the processing.py file with the one you backed up in step 1
 8. delete stable-diffusion-webui\modules\\_\_pycache\_\_\processing.cpython-310.pyc
 9. restart stable-diffusion-webui
@@ -38,7 +38,7 @@ a1111, version1.10.1がターゲットです
 3. stable-diffusion-webuiを実行する
 4. txt2imgでlora/lycorisなどを使ったプロンプトを書く(あるいは事前に作っておいた、いいなと思うプロンプトを張り付ける)
 5. 画像を生成する(sampling stepsは1でOK)
-6. stable-diffusion-webui\test_model.safetensorsというファイルが出来上がるので、stable-diffusion-webui\models\checkpoints配下などに置く
+6. stable-diffusion-webui\test_model.safetensorsというファイルが出来上がるので、stable-diffusion-webui\models\Stable-diffusion配下などに置く
 7. 1でバックアップを取っておいたprocessing.pyに置き換え直す
 8. stable-diffusion-webui\modules\\_\_pycache\_\_\processing.cpython-310.pycを削除する
 9. stable-diffusion-webuiを再起動する
